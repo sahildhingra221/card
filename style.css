@@ -1,0 +1,121 @@
+.card-wrapper {
+    height: 230px;
+    width: 450px;
+    margin:100px auto 0;
+    position: relative;
+    border-radius: 15px;
+    box-shadow:0 .5rem 1rem
+    rgba(0,0,0,.15);
+    overflow: hidden;
+}
+
+.card-bg-blured {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.blured-1 {
+    height: 67%;
+    width: 35%;
+    border-radius: 300px;
+    position: absolute;
+    bottom: -8%;
+    left: 6%;
+}
+
+.blured-2 {
+    height: 70%;
+    width: 39%;
+    border-radius: 300px;
+    position: absolute;
+    bottom: -7%;
+    right: 6%;
+}
+
+.blured-3 {
+    height: 44%;
+    width: 23%;
+    border-radius: 300px;
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.blured-4 {
+    height: 50%;
+    width: 26%;
+    border-radius: 300px;
+    position: absolute;
+    top: -7%;
+    left: 23%;
+}
+
+.blured-5 {
+    height: 59%;
+    width: 30%;
+    border-radius: 300px;
+    border: 1px solid;
+    position: absolute;
+    top: -14%;
+    right: 18%;
+}
+
+.card-bg-blured div {
+    filter: blur(54px);
+    opacity: 0.7;
+}
+
+.card-wrapper .content {
+    position:relative;
+    color: #fff;
+}
+
+.blured-bg-1 {
+    background: #EA638C;
+}
+
+/* .blured-1{
+    background-color: #EA638C;
+}
+
+.blured-2{
+    background-color: #B33C86;
+}
+
+.blured-3{
+    background-color: #190E4F;
+}
+
+.blured-4{
+    background-color: #03012C;
+}
+
+.blured-5{
+    background-color: #002A22;
+} */
+
+
+.blured-1{
+    background-color: #AAA939;
+}
+
+.blured-2{
+    background-color: #807F15;
+}
+
+.blured-3{
+    background-color: #FFFEAA;
+}
+
+.blured-4{
+    background-color: #555400;
+}
+
+.blured-5{
+    background-color: #D4D46A;
+}
