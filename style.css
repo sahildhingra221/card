@@ -1,6 +1,6 @@
 .card-wrapper {
-    height: 230px;
-    width: 450px;
+    height: 194px;
+    width: 354px;
     margin:100px auto 0;
     position: relative;
     border-radius: 15px;
@@ -67,17 +67,43 @@
 
 .card-bg-blured div {
     filter: blur(54px);
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .card-wrapper .content {
-    position:relative;
-    color: #fff;
+    position:
+    relative;
+    color: #000;
+    font-family: sans-serif;
 }
 
+/* .blured-bg-1 {
+    background-image: linear-gradient(45deg, #2E2FE3, #E0E0FB);
+} */
+
 .blured-bg-1 {
-    background: #EA638C;
+    background-image: linear-gradient(45deg, #aaa9399e, #d4d46a33);
 }
+
+/* .blured-1{
+    background-color: #2E2FE3;
+}
+
+.blured-2{
+    background-color: #151599;
+}
+
+.blured-3{
+    background-color:#090934;
+}
+
+.blured-4{
+    background-color: #8A8AEF;
+}
+
+.blured-5{
+    background-color: #E0E0FB;
+} */
 
 /* .blured-1{
     background-color: #EA638C;
@@ -119,3 +145,5 @@
 .blured-5{
     background-color: #D4D46A;
 }
+
+
